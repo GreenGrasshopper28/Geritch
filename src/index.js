@@ -1,8 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import images from './images';
+import meal from '../assets/meal.mp4';
+import data from './data';
 
-import './index.css';
-import App from './App';
-
-ReactDOM.render(<App />, document.getElementById('root'));
-
+export { images, meal, data };
